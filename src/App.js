@@ -60,7 +60,7 @@ const App = function () {
         <input
           onChange={(e) => setUsername(e.target.value)}
           type="text"
-          placeholder="Enter your username"
+          placeholder="Enter your username Test for branch:"
         />
         <input
           onChange={(e) => setEmail(e.target.value)}
