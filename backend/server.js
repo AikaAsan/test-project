@@ -9,8 +9,9 @@ app.use(bodyParser.json());
 app.use(cors());
 
 // API
+// users
 const users = require('./api/users');
-app.use('./api/users', users);
+app.use('/api/users', users);
 
 app.use(express.static(path.join(__dirname, '../build')))
 app.get('*', (req, res) => {
